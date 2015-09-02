@@ -96,6 +96,13 @@ float:left;
 width:950px;
 }
 
+#ContentInner{
+clear:both;
+float:left;
+width:910px;
+padding:20px;
+}
+
 #Emergency{
 }
 
