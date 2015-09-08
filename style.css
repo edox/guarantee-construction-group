@@ -55,6 +55,7 @@ padding:0;
 img{
 border:0;
 display:block;
+padding: 0px 10px;
 }
 
 ol,ul{
@@ -72,7 +73,7 @@ text-align: left;
 position:absolute;
 right:25px;
 top:25px;
-width:175px;
+width:225px;
 }
 
 #Column1{
