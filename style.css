@@ -186,8 +186,7 @@ color: #CbCbCb;
 }
 
 #Wrapper{
-margin-top: 25px;
-margin-bottom: 25px;
+margin: 25px;
 float:left;
 left:50%;
 margin-left:-512px;
