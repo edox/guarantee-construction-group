@@ -93,7 +93,8 @@ padding:20px;
 #Content{
 clear:both;
 float:left;
-width:950px;
+width:1000px;
+min-width: 950px;
 }
 
 #ContentInner{
