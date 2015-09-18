@@ -82,7 +82,7 @@ padding:20px;
 
 #Column2{
 float:right;
-padding:20px;
+padding:20px 30px 20px 20px;
 width:400px;
 }
 
@@ -190,9 +190,9 @@ color: #CbCbCb;
 margin: 25px;
 float:left;
 left:50%;
-margin-left:-500px;
+margin-left:-487px;
 position:relative;
-width:1000px;
+width:974px;
 background: #ffffff;
 -webkit-border-radius: 10px 10px 10px 10px;
 border-radius: 10px 10px 10px 10px;
