@@ -95,13 +95,14 @@ clear:both;
 float:left;
 width:1000px;
 min-width: 950px;
+padding-left: 15px;
 }
 
 #ContentInner{
 clear:both;
 float:left;
 width:910px;
-padding:20px;
+padding:30px;
 }
 
 #Emergency{
