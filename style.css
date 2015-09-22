@@ -65,6 +65,7 @@ padding:0 0 0 1.50em;
 p{
 margin:1em 0;
 padding:0;
+text-align: justify;
 }
 
 address{
@@ -137,7 +138,7 @@ position:relative;
 }
 
 #Nav{
-background: #cccccc;
+background: #184367;
 float:left;
 font:normal normal 400 12px/33px sans-serif;
 width:100%;
@@ -157,9 +158,9 @@ padding:0 20px;
 
 #Nav a:hover{
 text-shadow: 1px 1px 2px #000000;
-background: grey;
+background: #54B743;
 overflow:visible;
-color: #CbCbCb;
+color: #ffffff;
 }
 
 /*DD Nav*/
@@ -173,7 +174,7 @@ z-index:10;
 }
 
 #ddnav span{
-background:grey;
+background: #184367;
 color:white;
 cursor:pointer;
 display:block;
@@ -182,8 +183,8 @@ width:160px;
 }
 
 #ddnav span:hover{
-background:#cccccc;
-color: #CbCbCb;
+background:#54B743;
+color: #ffffff;
 }
 
 #Wrapper{
