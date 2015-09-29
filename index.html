@@ -4,6 +4,56 @@
 		<title>Guarantee Construction Group</title>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="jquery-1.11.1.min.js"></script>
+		<script>
+		//fader
+				$(function() {
+				$('#fader img:not(:first)').hide();
+				$('#fader img').css('position', 'absolute');
+				$('#fader img').css('top', '0px');
+				$('#fader img').css('left', '50%');
+				$('#fader img').each(function() {
+					var img = $(this);
+					$('<img>').attr('src', $(this).attr('src')).load(function() {
+						img.css('margin-left', -this.width / 2 + 'px');
+					});
+				});
+
+				var pause = false;
+				
+				function fadeNext() {
+					$('#fader img').first().fadeOut().appendTo($('#fader'));
+					$('#fader img').first().fadeIn();
+				}
+
+				function fadePrev() {
+					$('#fader img').first().fadeOut();
+					$('#fader img').last().prependTo($('#fader')).fadeIn();
+				}
+
+				$('#fader, #next').click(function() {
+					fadeNext();
+				});
+
+				$('#prev').click(function() {
+					fadePrev();
+				});
+
+				$('#fader, .button').hover(function() {
+					pause = true;
+				},function() {
+					pause = false;
+				});
+
+				function doRotate() {
+					if(!pause) {
+						fadeNext();
+					}    
+				}
+				
+				var rotate = setInterval(doRotate, 4000);
+			});
+		</stript>
 	</head>
 	<body>
 		<div id="Wrapper">
@@ -23,7 +73,16 @@
 				</a>
 				<a href="contact.html">Contact Us</a>
 			</div>
-			<div id="banner"></div>
+			<div id="banner">
+				<!--<div id="fader">
+					<img src="img/banner1.jpg"/>
+					<img src="img/banner2.jpg"/>
+					<img src="img/banner3.jpg"/>
+					<img src="img/banner4.jpg"/>
+					<img src="img/banner5.jpg"/>
+					<img src="img/banner6.jpg"/>
+				</div>-->
+			</div>
 			<div id="Content">
 				<div id="Column2">
 				<h1>In the Numbers</h1>
