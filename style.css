@@ -38,18 +38,21 @@ width:367px;
 
 h1{
 font:normal normal 700 2em/2.1em 'Oswald', sans-serif;
+text-transform: uppercase;
 margin:0.67em 0;
 padding:0;
 }
 
 h2{
 font:normal normal 700 1.5em/1.6em 'Oswald', sans-serif;
+text-transform: uppercase;
 margin:0.83em 0;
 padding:0;
 }
 
 h3{
 font:normal normal 700 1.17em/1.27em 'Oswald', sans-serif;
+text-transform: uppercase;
 margin:1em 0;
 padding:0;
 }
