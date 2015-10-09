@@ -3,6 +3,7 @@
 body{
 font:normal normal 400 12px/15px 'Roboto', sans-serif;
 margin:0;
+background: url(img/body.jpg) repeat top left;
 /*background:
 linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
 linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
@@ -13,6 +14,7 @@ linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transpar
 background-color: #131313;
 background-size: 20px 20px;*/
 background-color: #ffffff;
+overflow-y:scroll;
 }
 
 a{
@@ -37,21 +39,21 @@ width:367px;
 }
 
 h1{
-font:normal normal 700 2em/2.1em 'Oswald', sans-serif;
+font:normal normal 700 1.5em/2.1em 'Oswald', sans-serif;
 text-transform: uppercase;
 margin:0.67em 0;
 padding:0;
 }
 
 h2{
-font:normal normal 700 1.5em/1.6em 'Oswald', sans-serif;
+font:normal normal 700 1em/1.6em 'Oswald', sans-serif;
 text-transform: uppercase;
 margin:0.83em 0;
 padding:0;
 }
 
 h3{
-font:normal normal 700 1.17em/1.27em 'Oswald', sans-serif;
+font:normal normal 700 .85em/1.27em 'Oswald', sans-serif;
 text-transform: uppercase;
 margin:1em 0;
 padding:0;
@@ -85,8 +87,9 @@ width:225px;
 #fader{
 position: relative; 
 width: 100%;
-height: 200px;
-margin-top: 5px;
+height: 322px;
+margin-top: 33px;
+right: 10px;
 }
 
 #Column1{
@@ -107,7 +110,7 @@ padding:20px;
 #Content{
 clear:both;
 float:left;
-width:974px;
+width:975px;
 min-width: 950px;
 padding-left: 10px;
 }
@@ -127,7 +130,7 @@ color: #ffffff;
 text-shadow: 1px 1px 2px #000000;
 clear:both;
 height: 50px;
-background: #54B743;
+background: #184367;
 -webkit-border-radius: 0 0 10px 10px;
 border-radius: 0 0 10px 10px;
 }
@@ -204,9 +207,9 @@ color: #ffffff;
 margin: 25px;
 float:left;
 left:50%;
-margin-left:-487px;
+margin-left:-486px;
 position:relative;
-width:974px;
+width:975px;
 background: #ffffff;
 -webkit-border-radius: 10px 10px 10px 10px;
 border-radius: 10px 10px 10px 10px;
