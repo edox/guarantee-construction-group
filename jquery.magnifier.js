@@ -11,8 +11,8 @@ jQuery.noConflict()
 
 jQuery.imageMagnify={
 	dsettings: {
-		magnifyby: 1.5, //default increase factor of enlarged image
-		duration: 500, //default duration of animation, in millisec
+		magnifyby: 2, //default increase factor of enlarged image
+		duration: 750, //default duration of animation, in millisec
 		imgopacity: 0.2 //opacify of original image when enlarged image overlays it
  	},
 	cursorcss: 'url(magnify.cur), -moz-zoom-in', //Value for CSS's 'cursor' attribute, added to original image
