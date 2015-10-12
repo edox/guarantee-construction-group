@@ -28,6 +28,10 @@ text-decoration:none;
 font-weight: strong;
 }
 
+hr{
+border-top: dashed 1px grey;	
+}
+
 a.logo{
 background:url(img/logo1.png) no-repeat left top;
 display:block;
@@ -110,7 +114,7 @@ padding:20px;
 #Content{
 clear:both;
 float:left;
-width:975px;
+width:965px;
 min-width: 950px;
 padding-left: 10px;
 }
