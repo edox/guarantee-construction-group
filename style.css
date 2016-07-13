@@ -32,6 +32,10 @@ hr{
 border-top: dashed 1px grey;	
 }
 
+.small {
+	font-size: 10px;
+}
+
 a.logo{
 background:url(img/logo1.png) no-repeat left top;
 display:block;
